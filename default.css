@@ -1,0 +1,182 @@
+body.guest {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; 
+    background-image: url('../banners/mainBanner1.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    font-size: 24px;
+    line-height: 1.6;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: #fff; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center; 
+}
+
+body.main {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; 
+    font-size: 24px;
+    line-height: 1.6;
+    font-weight: 100;
+	min-height: 100vh; 
+    font-family: sans-serif;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+	padding-top: 80px; 
+    overflow-y: auto; 
+}
+
+header {
+    width: 100%;
+    background-color: #333;
+    color: #d6f5e7;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	z-index: 1000;
+}
+
+header .logo {
+    margin-left: 20px;
+}
+
+header nav {
+    text-align: right;
+}
+
+header nav a {
+    color: #d6f5e7;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.clear {
+    clear: both;
+}
+
+.center {
+    text-align: center;
+}
+
+.top-30 {
+    margin-top: 30px;
+}
+
+
+
+h2 {
+    color: #333;
+	margin-top: 500px;
+    margin-bottom: 20px;
+}
+
+
+nav.nav_bar a {
+    display: inline-block;
+    margin: 10px 5px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    color: #fff; 
+    background-color: #2CEF97; 
+    border: none;
+    border-radius: 5px; 
+    text-decoration: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+
+nav.nav_bar a:hover {
+    background-color: #26B474; 
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 150px;
+    border: 2px solid #ccc; 
+}
+
+table th, table td {
+    border: 2px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+
+
+.home_title {
+    background-color: rgba(255, 255, 255, 0.9); 
+    text-align: center; 
+    padding: 50px 20px;
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+.home_title h1 {
+    font-size: 48px;
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    color: #000;
+    position: relative; 
+}
+
+.home_title h1::after {
+    content: '';
+    display: block;
+    width: 100px; 
+    height: 4px; 
+    background-color: #00cc66;
+    position: absolute;
+    bottom: -8px;
+    left: calc(50% - 50px);
+}
+
+.home_title h2 {
+    font-size: 32px; 
+    font-weight: normal; 
+    margin-top: 0; 
+    color: #000; 
+}
+
+footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0; 
+    text-align: center;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+
+
+
+
