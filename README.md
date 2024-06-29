@@ -5,6 +5,7 @@ The project was created by Yovana Bozhilov with contributions from Branka Stoyev
 
 
 **Introduction** 
+
 Regardless of whether it involves professional commitments, personal meetings, or recreational events, scheduling plays a key role in organizing our day. This documentation examines the process of generating a schedule for a specific event - presentations.
 
 The scheduling process distinguishes between two roles - the user role, which involves using the schedule to review past and upcoming presentations and expressing interest in them, and the administrator role, responsible for managing events and updating the schedule content. In other words, the administrator is the person who adds and edits the schedule's content.
@@ -15,6 +16,7 @@ As a result of designing such a system, users will have access to a personalized
 
 
 **Used Technologies**
+
 In the development of version 1.0 of this system, we aim for a three-tier architecture based on the MVC (Model-View-Controller) model.
 
 The interface is built primarily using the currently widely-used HTML, CSS, and JavaScript. All user registration data, as well as information about various presentations, is stored in a database accessed through MySQL, directly installed via XAMPP. The application has been tested on an Apache server, which is also included in the XAMPP installation package.
@@ -23,6 +25,7 @@ The business logic is implemented using PHP. In the model part of the MVC model,
 
 
 **Installation, Settings, and DevOps**
+
 To properly use the application and take advantage of the functionalities it provides, the user must have the latest version of XAMPP installed on their local machine. This allows them to run an Apache server and MySQL database without the need to install other programs. Through phpMyAdmin, the necessary tables for the database can be created and edited. The project files must be placed in the specific XAMPP folder (htdocs). To launch the application in the browser, type "localhost" and the port number if it is different from 80.
 
 Another way to access the system is by installing an Apache server that supports PHP and MySQL. The project should be located in the folder specified during the server setup (preferably named "localhost"), which should be directly accessible when entering "C:". To run the project, the server must be started, and in the browser, type the name of the folder containing the project and the port number if it is different from 80 (e.g., localhost:8080).
@@ -31,6 +34,7 @@ The logic for establishing a connection with the database is contained in the Ab
 
 
 **Student Contributions, Limitations, and Future Expansion Opportunities**
+
 All functionalities of the system, including the program code and ideas for information on various parts of the application were developed jointly by the students participating in the team, using the given project guidelines.
 
 The schedule generation application has limitations in its functionality and interface. The use of a local Apache server and a basic HTML/CSS/JavaScript interface restricts scalability and expansion possibilities.
@@ -39,9 +43,10 @@ Opportunities for future expansion include the integration of additional functio
 
 
 **Sources Used**
-1. Lectures and exercises from Moodle, Web Technologies course, summer semester 2023/2024
-2. StackOverflow - https://stackoverflow.com/
-3. W3Schools - https://www.w3schools.com/php/
-4. MySQL Documentation - https://www.mysql.com
+
+Lectures and exercises from Moodle, Web Technologies course, summer semester 2023/2024
+StackOverflow - https://stackoverflow.com/
+W3Schools - https://www.w3schools.com/php/
+MySQL Documentation - https://www.mysql.com
 
 
