@@ -16,6 +16,7 @@ As a result of designing such a system, users will have access to a personalized
 The application is based on the Model-View-Controller (MVC) architecture, which separates various functionalities and facilitates maintenance and scalability. Let's examine the following modules within our application:
 
 **User Interface** (view folder)
+
 The interface provides interaction for users with the system through HTML templates and static resources (CSS, JavaScript, images). Files available in this module include:
 
 HTML and PHP files: add_presentation.php, edit_presentation.php, admin_main.php, main.php, register.html, login.html, guest.html, error.html. These files contain templates for visualizing different parts of the system.
@@ -23,28 +24,39 @@ HTML and PHP files: add_presentation.php, edit_presentation.php, admin_main.php,
 Next, we have "assets" folder, which contains a "banners" folder with image ("mainBanner1.jpg") used in the main page of the system, a "js" folder with "validation.js" file, and "css" folder with "default.css" and "skeleton.css" files for application styles.
 
 **Controllers** (controller folder)
+
 Controllers receive requests from the interface, process them, and return results back to the view. They communicate with various PHP classes (model) and DAO (Data Access Object) for executing business logic. Files available in this module include:
 
 AbstractController.php - Abstract class containing basic functionality inherited by other controllers.
+
 UserController.php - Controls actions related to users, such as registration, login, viewing, and marking events.
+
 AdminController.php - Controls actions related to administrators, such as adding and editing events.
+
 PresentationController.php - Controls actions related to presentations, such as saving interests, generating a presentation table, and exporting the table.
 
 **Models** (model folder)
+
 Models represent data and the logic for manipulating that data. They define the structure of information and methods for accessing and modifying it. The following files are available:
 
 Presentation.php - Model for representing information about presentations.
+
 User.php - Model for users.
 
 DAO folder (Data Access Object)
+
 The DAO layer provides an abstraction for accessing the database, offering methods for storing, retrieving, and modifying data. Within this module, we have the following files:
 
 PresentationDAO.php - DAO classes for managing data access for presentations.
+
 UserDAO.php, AdminDAO.php - DAO classes for managing data access for users and administrators.
+
 AbstractDAO.php - Class for common database operations, establishing the connection to the database itself.
+
 IPresentationDAO.php, IUserDAO.php, IAdminDAO.php - Interfaces defining methods for interacting with the database.
 
 **Database** (database folder)
+
 The database stores all application data, including information about users, presentations, and their various aspects. This folder includes schedule_generation.sql file, which contains SQL script for generating the database structure.
 
 Additionally, we have two more files:
