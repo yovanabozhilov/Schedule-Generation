@@ -19,7 +19,8 @@ The application is based on the Model-View-Controller (MVC) architecture, which 
 The interface provides interaction for users with the system through HTML templates and static resources (CSS, JavaScript, images). Files available in this module include:
 
 HTML and PHP files: add_presentation.php, edit_presentation.php, admin_main.php, main.php, register.html, login.html, guest.html, error.html. These files contain templates for visualizing different parts of the system.
-The "assets" folder, which contains the "banners" folder with image ("mainBanner1.jpg") used in the main page of the system, a "js" folder with "validation.js" file, and "css" folder with "default.css" and "skeleton.css" files for application styles.
+
+Next, we have "assets" folder, which contains a "banners" folder with image ("mainBanner1.jpg") used in the main page of the system, a "js" folder with "validation.js" file, and "css" folder with "default.css" and "skeleton.css" files for application styles.
 
 **Controllers** (controller folder)
 Controllers receive requests from the interface, process them, and return results back to the view. They communicate with various PHP classes (model) and DAO (Data Access Object) for executing business logic. Files available in this module include:
