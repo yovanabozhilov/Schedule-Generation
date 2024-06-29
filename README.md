@@ -8,7 +8,7 @@ Regardless of whether it involves professional commitments, personal meetings, o
 
 The scheduling process distinguishes between two roles - the user role, which involves using the schedule to review past and upcoming presentations and expressing interest in them, and the administrator role, responsible for managing events and updating the schedule content. In other words, the administrator is the person who adds and edits the schedule's content.
 
-The system allows for registration for unregistered users and login for registered ones. Furthermore, it enables administrators to add and edit events in the schedule. On the other hand, users need the capability to view both upcoming and past presentations. Additionally, users should be able to mark presentations that interest them by selecting one of the options from a dropdown menu: "Must attend," "Considering attending," "Interesting," or "Might be interesting." Based on users' choices, the system generates a personalized schedule for them. Ultimately, users have the ability to print their personalized schedule in formats such as PDF, Excel, or archive.
+The system allows for registration for unregistered users and login for registered ones. Furthermore, it enables administrators to add and edit events in the schedule. On the other hand, users need the capability to view both upcoming and past presentations. Additionally, users should be able to mark presentations that interest them by selecting one of the options from a dropdown menu: "Considering attending," "Interesting," or "Might be interesting." Based on users' choices, the system generates a personalized schedule for them. Ultimately, users have the ability to print their personalized schedule in formats such as PDF, Excel, or archive.
 
 As a result of designing such a system, users will have access to a personalized and optimized schedule, helping them plan their activities and time more effectively.
 
@@ -26,9 +26,7 @@ Another way to access the system is by installing an Apache server that supports
 
 The logic for establishing a connection with the database is contained in the AbstractDao.php file. Thus, if corrections are needed, changes will be made only in this file. For generating PDF and TAR (archive) files, we used the commands wkhtmltopdf and tar. For configuring and installing the wkhtmltopdf command, we used this tutorial: https://www.youtube.com/watch?v=XX9nhxVF8Z4. A key element when using the command is to specify the exact path to its directory for it to be accessible. The wkhtmltopdf command is used to convert HTML to PDF. For archiving our table, we used the tar command, and to implement and study it, we used this tutorial: https://www.youtube.com/watch?v=29UdweXJThk&t=321s. It is also accessed by providing the full path to the directory where it is located to ensure successful localization.
 
-# Student Contributions, Limitations, and Future Expansion Opportunities
-All functionalities of the system, including the program code and ideas for information on various parts of the application, were developed jointly by the students participating in the team, using the given project guidelines.
-
+# Limitations and Future Expansion Opportunities
 The schedule generation application has limitations in its functionality and interface. The use of a local Apache server and a basic HTML/CSS/JavaScript interface restricts scalability and expansion possibilities.
 
 Opportunities for future expansion include the integration of additional functionalities such as automatic schedule updates, improving the interface's appearance, and expanding administration and analysis functionalities.
