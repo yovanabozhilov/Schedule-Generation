@@ -79,7 +79,5 @@ Another way to access the system is by installing an Apache server that supports
 
 The logic for establishing a connection with the database is contained in the AbstractDao.php file. Thus, if corrections are needed, changes will be made only in this file. For generating PDF and TAR (archive) files, we used the commands wkhtmltopdf and tar. For configuring and installing the wkhtmltopdf command, we used this tutorial: https://www.youtube.com/watch?v=XX9nhxVF8Z4. A key element when using the command is to specify the exact path to its directory for it to be accessible. The wkhtmltopdf command is used to convert HTML to PDF. For archiving our table, we used the tar command, and to implement and study it, we used this tutorial: https://www.youtube.com/watch?v=29UdweXJThk&t=321s. It is also accessed by providing the full path to the directory where it is located to ensure successful localization.
 
-# Limitations and Future Expansion Opportunities
-The schedule generation application has limitations in its functionality and interface. The use of a local Apache server and a basic HTML/CSS/JavaScript interface restricts scalability and expansion possibilities.
-
+# Future Expansion Opportunities
 Opportunities for future expansion include the integration of additional functionalities such as automatic schedule updates, improving the interface's appearance, and expanding administration and analysis functionalities.
