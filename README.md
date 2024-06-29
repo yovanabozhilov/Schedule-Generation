@@ -32,12 +32,3 @@ All functionalities of the system, including the program code and ideas for info
 The schedule generation application has limitations in its functionality and interface. The use of a local Apache server and a basic HTML/CSS/JavaScript interface restricts scalability and expansion possibilities.
 
 Opportunities for future expansion include the integration of additional functionalities such as automatic schedule updates, improving the interface's appearance, and expanding administration and analysis functionalities.
-
-# Sources Used
-Lectures and exercises from Moodle, Web Technologies course, summer semester 2023/2024
-StackOverflow - https://stackoverflow.com/
-W3Schools - https://www.w3schools.com/php/
-MySQL Documentation - https://www.mysql.com
-
-
-
