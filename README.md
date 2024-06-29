@@ -59,7 +59,7 @@ IPresentationDAO.php, IUserDAO.php, IAdminDAO.php - Interfaces defining methods 
 
 The database stores all application data, including information about users, presentations, and their various aspects. This folder includes schedule_generation.sql file, which contains SQL script for generating the database structure.
 
-Additionally, we have two more files:
+Additionally, we have two more files in the main Schedule folder, which contains all of the other mentioned folders and files:
 
 handleRequest.php, which processes requests from users and administrators, redirecting them to the respective controllers, and index.php, the main entry file of the system, which loads the initial page and handles initial requests. It redirects to different pages and executes specific commands for each functionality. These files act as a bridge between the controllers and the interface
 
