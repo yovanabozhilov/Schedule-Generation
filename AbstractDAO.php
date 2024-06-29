@@ -5,7 +5,7 @@ abstract class AbstractDAO {
 
     const DB_NAME = "schedule_generation";
     const DB_IP = "localhost";
-    const DB_PORT = "3307";
+    const DB_PORT = "3306";
     const DB_USER = "root";
     const DB_PASS = "";
 
