@@ -3,6 +3,8 @@ This repository contains a project designed to generate schedules for presentati
 
 The project was created by Yovana Bozhilov with contributions from Branka Stoyeva.
 
+Further in this README file, I will present a brief documentation of the mentioned project, which can help the reader/user understand our system and its functionalities.
+
 # Introduction
 Regardless of whether it involves professional commitments, personal meetings, or recreational events, scheduling plays a key role in organizing our day. This documentation examines the process of generating a schedule for a specific event - presentations.
 
