@@ -4,6 +4,8 @@ This repository contains a project designed to generate schedules for presentati
 The project was created by Yovana Bozhilov with contributions from Branka Stoyeva.
 
 
+
+
 **Introduction** 
 
 Regardless of whether it involves professional commitments, personal meetings, or recreational events, scheduling plays a key role in organizing our day. This documentation examines the process of generating a schedule for a specific event - presentations.
@@ -15,6 +17,8 @@ The system allows for registration for unregistered users and login for register
 As a result of designing such a system, users will have access to a personalized and optimized schedule, helping them plan their activities and time more effectively.
 
 
+
+
 **Used Technologies**
 
 In the development of version 1.0 of this system, we aim for a three-tier architecture based on the MVC (Model-View-Controller) model.
@@ -22,6 +26,8 @@ In the development of version 1.0 of this system, we aim for a three-tier archit
 The interface is built primarily using the currently widely-used HTML, CSS, and JavaScript. All user registration data, as well as information about various presentations, is stored in a database accessed through MySQL, directly installed via XAMPP. The application has been tested on an Apache server, which is also included in the XAMPP installation package.
 
 The business logic is implemented using PHP. In the model part of the MVC model, the main classes for the system are created, and communication with the database is established. The validation of user registration information and restriction of their access to certain functionalities, depending on their type (user/administrator), is performed in this part. The controller part of the MVC model is responsible for retrieving and sending data to the presentation layer of the system.
+
+
 
 
 **Installation, Settings, and DevOps**
@@ -33,6 +39,8 @@ Another way to access the system is by installing an Apache server that supports
 The logic for establishing a connection with the database is contained in the AbstractDao.php file. Thus, if corrections are needed, changes will be made only in this file. For generating PDF and TAR (archive) files, we used the commands wkhtmltopdf and tar. For configuring and installing the wkhtmltopdf command, we used this tutorial: https://www.youtube.com/watch?v=XX9nhxVF8Z4. A key element when using the command is to specify the exact path to its directory for it to be accessible. The wkhtmltopdf command is used to convert HTML to PDF. For archiving our table, we used the tar command, and to implement and study it, we used this tutorial: https://www.youtube.com/watch?v=29UdweXJThk&t=321s. It is also accessed by providing the full path to the directory where it is located to ensure successful localization.
 
 
+
+
 **Student Contributions, Limitations, and Future Expansion Opportunities**
 
 All functionalities of the system, including the program code and ideas for information on various parts of the application were developed jointly by the students participating in the team, using the given project guidelines.
@@ -42,11 +50,16 @@ The schedule generation application has limitations in its functionality and int
 Opportunities for future expansion include the integration of additional functionalities such as automatic schedule updates, improving the interface's appearance, and expanding administration and analysis functionalities.
 
 
+
+
 **Sources Used**
 
 Lectures and exercises from Moodle, Web Technologies course, summer semester 2023/2024
+
 StackOverflow - https://stackoverflow.com/
+
 W3Schools - https://www.w3schools.com/php/
+
 MySQL Documentation - https://www.mysql.com
 
 
