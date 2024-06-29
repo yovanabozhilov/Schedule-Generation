@@ -5,7 +5,6 @@ The project was created by Yovana Bozhilov with contributions from Branka Stoyev
 
 
 
-
 **Introduction** 
 
 Regardless of whether it involves professional commitments, personal meetings, or recreational events, scheduling plays a key role in organizing our day. This documentation examines the process of generating a schedule for a specific event - presentations.
