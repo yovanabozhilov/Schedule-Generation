@@ -1,7 +1,7 @@
 # Schedule-Generation
 This repository contains a project designed to generate schedules for presentations.
 
-The project was created by Yovana Bozhilov with contributions from Branka Stoyeva.
+The project was created as a Web Technologies course project at Sofia University, Faculty of Mathematics and Informatics, by Yovana Bozhilov with contributions from Branka Stoyeva.
 
 Further in this README file, I will present a brief documentation of the mentioned project, which can help the reader/user understand our system and its functionalities.
 
